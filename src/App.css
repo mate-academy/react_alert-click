@@ -1,0 +1,13 @@
+.button {
+  background-color: deeppink;
+  color: #fff;
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+  outline: none;
+  transition: 0.5s;
+}
+
+.button:hover {
+  transform: translateY(7px);
+}
