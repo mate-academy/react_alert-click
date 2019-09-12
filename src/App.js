@@ -3,9 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <div>
-
-    </div>
+    <button onClick={() => console.log(alert('Button was clicked!'))}>
+      Click me!
+    </button>
   );
 }
 
