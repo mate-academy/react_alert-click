@@ -1,0 +1,15 @@
+button {
+  background-color: lightblue;
+  border-radius: 5px;
+  border: 1px solid grey;
+  height: 50px;
+  width: 150px;
+  text-transform: uppercase;
+  color: grey;
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
