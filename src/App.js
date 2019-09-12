@@ -2,10 +2,11 @@
 import React from 'react';
 import './App.css';
 
+const showMessage = () => alert('Button was clicked!');
+
 function App() {
-  const click = () => alert('Button was clicked!');
   return (
-    <button type="submit" onClick={click}>Click me!</button>
+    <button type="submit" onClick={showMessage}>Click me!</button>
   );
 }
 
