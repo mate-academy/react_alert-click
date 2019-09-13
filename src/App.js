@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-function onClick() {
+function handleClick() {
   alert('Button was clicked!');
 }
 
@@ -10,7 +10,7 @@ class App extends React.Component {
     return (
       <div className="main">
         <button
-          onClick={() => onClick()}
+          onClick={() => handleClick()}
           type="button"
           className="btn btn-primary btn-lg"
         >
