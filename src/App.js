@@ -9,8 +9,12 @@ class App extends React.Component {
   render () {
     return (
       <div>
-        <button type="button" onClick={this.alertOnClick} className="button">
-        Press Me!
+        <button
+          type="button"
+          onClick={this.alertOnClick}
+          className="button"
+        >
+          Press Me!
         </button>
       </div>
     );
