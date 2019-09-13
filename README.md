@@ -56,4 +56,4 @@ You should be writing code in `src/` directory.
 
 ### Demo link
 
-Add link here: `[DEMO LINK](https://<your_account>.github.io/<repo_name>/)`
+Add link here: `[DEMO LINK](https://khrystynastyslo.github.io/react_alert-click/)`
