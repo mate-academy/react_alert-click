@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 
-function alertFn() {
+function showAlert() {
   alert('Button was clicked!');
 }
 function App() {
   return (
-    <button onClick={alertFn} type="button" id="btn">Hello</button>
+    <button onClick={showAlert} type="button" id="btn">Hello</button>
   );
 }
 
