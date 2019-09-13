@@ -1,12 +1,24 @@
 import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div>
+class App extends React.Component {
+  alertOnClick = () => {
+    alert('Button was clicked!');
+  }
 
-    </div>
-  );
+  render () {
+    return (
+      <div>
+        <button
+          type="button"
+          onClick={this.alertOnClick}
+          className="button"
+        >
+          Press Me!
+        </button>
+      </div>
+    );
+  }
 }
 
 export default App;
