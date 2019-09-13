@@ -2,10 +2,12 @@ import React from 'react';
 import './App.css';
 
 function App() {
-  return (
-    <div>
+  const handleClick = () => alert ('Button was clicked!');
 
-    </div>
+  return (
+    <form>
+      <button className="btn" onClick={handleClick}>Push me</button>
+    </form>
   );
 }
 
