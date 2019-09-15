@@ -10,7 +10,7 @@ const App = () => (
       className="btn btn-danger place"
       onClick={handleClick}
     >
-        Click me!
+      Click me!
     </button>
   </div>
 );
