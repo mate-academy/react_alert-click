@@ -1,12 +1,18 @@
 import React from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div>
+const handleClick = () => alert('Button was clicked');
 
-    </div>
-  );
-}
+const App = () => (
+  <div>
+    <button
+      type="button"
+      className="btn btn-danger place"
+      onClick={handleClick}
+    >
+        Click me!
+    </button>
+  </div>
+);
 
 export default App;
