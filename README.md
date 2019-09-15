@@ -56,4 +56,5 @@ You should be writing code in `src/` directory.
 
 ### Demo link
 
--[DEMO LINK](https://igaryok.github.io/react_alert-click/)
+- [DEMO LINK](https://igaryok.github.io/react_alert-click/)
+- [PR](https://github.com/mate-academy/react_alert-click/pull/17)
