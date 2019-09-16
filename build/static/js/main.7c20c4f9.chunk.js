@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[0],{3:function(n,e,t){n.exports=t(9)},8:function(n,e,t){},9:function(n,e,t){"use strict";t.r(e);var c=t(0),o=t.n(c),r=t(2),a=t.n(r);t(8);var i=function(){return o.a.createElement("div",null,o.a.createElement("button",{name:"clicker",onClick:function(){alert("DONT REJECT PLZ(((")}},"Click me"))};a.a.render(o.a.createElement(i,null),document.getElementById("root"))}},[[3,1,2]]]);
+//# sourceMappingURL=main.7c20c4f9.chunk.js.map
